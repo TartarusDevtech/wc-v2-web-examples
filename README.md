@@ -1,40 +1,57 @@
-# WalletConnect v2 Examples
+# WalletConnect v2 Web Examples
 
-Catalogue of various wallet and dapp examples implementing WalletConnect's **SDKs and APIs**. Each example contains its own README with further instructions and explanations.
+Welcome to the **WalletConnect v2 Web Examples** repository!  
+This repo serves as a comprehensive catalogue of web wallet and dapp examples that demonstrate the use of WalletConnect's v2 SDKs and APIs. Each example is self-contained with its own README and focuses on different WalletConnect features and integration patterns.
 
-### Web3Wallet SDK
+## About
 
-**Wallets:**
+This repository is intended for developers looking to:
 
-- [React Web3Wallet SDK](https://github.com/WalletConnect/web-examples/tree/main/wallets/react-web3wallet) ([Demo](https://react-web3wallet.vercel.app))
+- **Learn** how to integrate WalletConnect v2 into web-based wallets and decentralized applications (dapps)
+- **Reference** practical implementations using React, TypeScript, NextJS, Ethers.js, Cosmos, and more
+- **Explore** advanced WalletConnect features such as Sign, Auth, and Chat APIs
 
-### Sign API
+> **Note:**  
+> All examples are for reference and development purposes only. Do not use these implementations with real funds.
 
-**Wallets:**
+## Contents
 
-- [React Wallet (Sign v1 + v2)](https://github.com/WalletConnect/web-examples/tree/main/wallets/react-wallet-v2) ([Demo](https://react-wallet.walletconnect.com/))
+- Wallet examples (React, TypeScript, Ethers, NextJS, Cosmos)
+  - Support for Sign v1 and v2 (side-by-side)
+  - Auth and Chat API demos
+- Dapp examples (React, Ethers.js, web3.js, Cosmos Provider)
+- Each folder contains a detailed README and live demo links
 
-**dApps:**
+## Live Demos
 
-- [React dApp (with standalone client) - v2](https://github.com/WalletConnect/web-examples/tree/main/dapps/react-dapp-v2) ([Demo](https://react-app.walletconnect.com/))
-- [React dApp (with EthereumProvider + Ethers.js) - v2](https://github.com/WalletConnect/web-examples/tree/main/dapps/react-dapp-v2-with-ethers) ([Demo](https://react-dapp-v2-with-ethers.vercel.app/))
-- [React dApp (with EthereumProvider + web3.js) - v2](https://github.com/WalletConnect/web-examples/tree/main/dapps/react-dapp-v2-with-web3js) ([Demo](https://react-dapp-v2-with-web3js.vercel.app/))
+- [React Wallet (Sign v1 + v2)](https://react-wallet.walletconnect.com/)
+- [React dApp (with standalone client) - v2](https://react-app.walletconnect.com/)
+- [React dApp (EthereumProvider + Ethers.js)](https://react-dapp-v2-with-ethers.vercel.app/)
+- [React dApp (EthereumProvider + web3.js)](https://react-dapp-v2-with-web3js.vercel.app/)
+- [Auth Wallet Example](https://react-auth-wallet.walletconnect.com/)
+- [Chat Wallet Example](https://react-wallet-chat.walletconnect.com/)
 
-### Auth API
+For a full list of examples and their individual documentation, check the specific folders in this repository.
 
-**Wallets:**
+## Documentation
 
-- [React Auth
-  Wallet](https://github.com/WalletConnect/web-examples/tree/main/wallets/react-wallet-auth) ([Demo](https://react-auth-wallet.vercel.app))
+- 📚 [WalletConnect v2 Documentation](https://docs.walletconnect.com/2.0)
 
-**dApps:**
+## Getting Started
 
-- [React Auth dApp](https://github.com/WalletConnect/web-examples/tree/main/dapps/react-dapp-auth) ([Demo](https://react-auth-dapp.walletconnect.com/))
-- [Vue Auth dApp](https://github.com/WalletConnect/web-examples/tree/main/dapps/vue-dapp-auth) ([Demo](https://vue-dapp-auth.vercel.app/))
+Clone this repository and refer to each example's README for setup and usage instructions.
 
+```bash
+git clone https://github.com/TartarusDevtech/WcV2WebExamples.git
+```
 
-### Chat API
+## License
 
-**Wallets:**
+This repository is provided under the MIT License. See the [LICENSE](./LICENSE) file for details.
 
-- [React Chat Wallet](https://github.com/WalletConnect/web-examples/tree/main/wallets/react-wallet-chat) ([Demo](https://react-wallet-chat.walletconnect.com/))
+---
+
+## About Section
+
+**WalletConnect v2 Web Examples** is a developer-focused collection of wallet and dapp implementations showcasing WalletConnect v2's main use cases, including transaction signing, authentication, and chat functionalities.  
+It enables wallet and dapp developers to quickly get started, understand best practices, and reference real-world patterns for integrating WalletConnect into their own projects.
